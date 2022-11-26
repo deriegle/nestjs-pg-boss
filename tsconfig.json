@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "esModuleInterop": true,                             /* Emit additional JavaScript to ease support for importing CommonJS modules. This enables 'allowSyntheticDefaultImports' for type compatibility. */
+    "forceConsistentCasingInFileNames": true,            /* Ensure that casing is correct in imports. */
+    "module": "commonjs",                                /* Specify what module code is generated. */
+    "noFallthroughCasesInSwitch": true,               /* Enable error reporting for fallthrough cases in switch statements. */
+    "noImplicitAny": true,                            /* Enable error reporting for expressions and declarations with an implied 'any' type. */
+    // "noUncheckedIndexedAccess": true,                 /* Add 'undefined' to a type when accessed using an index. */
+    "outDir": "dist",                                   /* Specify an output folder for all emitted files. */
+    "resolveJsonModule": true,                        /* Enable importing .json files. */
+    "rootDir": ".",                                    /* Specify the root folder within your source files. */
+    "skipLibCheck": true,                                 /* Skip type checking all .d.ts files. */
+    "strict": true,                                      /* Enable all strict type-checking options. */
+    "strictFunctionTypes": true,                      /* When assigning functions, check to ensure parameters and the return values are subtype-compatible. */
+    "strictNullChecks": true,                         /* When type checking, take into account 'null' and 'undefined'. */
+    "target": "es5"                                  /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */
+  }
+}
